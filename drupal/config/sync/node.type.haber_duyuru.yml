@@ -1,0 +1,17 @@
+uuid: 55c23d71-23a7-4fa8-8d9a-bf7c0758dd79
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Haber-Duyuru
+type: haber_duyuru
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

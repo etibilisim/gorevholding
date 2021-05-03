@@ -1,0 +1,25 @@
+uuid: a2d6bf6e-a7b4-4f46-97b5-52527db21ab5
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5ad735c0-4d11-429f-a665-d484a9685992'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: merkezofis
+theme: conference_lite
+region: footer_third
+weight: 0
+provider: null
+plugin: 'block_content:5ad735c0-4d11-429f-a665-d484a9685992'
+settings:
+  id: 'block_content:5ad735c0-4d11-429f-a665-d484a9685992'
+  label: Merkez
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

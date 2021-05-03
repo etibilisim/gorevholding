@@ -1,0 +1,11 @@
+uuid: d3bd2798-05d5-44b2-bf01-0d644f7778f9
+langcode: tr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.kurullar
+id: taxonomy_term.kurullar
+target_entity_type_id: taxonomy_term
+target_bundle: kurullar
+default_langcode: site_default
+language_alterable: false

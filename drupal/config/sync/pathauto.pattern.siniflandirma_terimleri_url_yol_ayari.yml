@@ -1,0 +1,25 @@
+uuid: 4f848ddf-5333-4b50-b4c3-ddedcbd879db
+langcode: tr
+status: true
+dependencies:
+  module:
+    - ctools
+    - taxonomy
+id: siniflandirma_terimleri_url_yol_ayari
+label: 'Sınıflandırma Terimleri URL Yol Ayarı'
+type: 'canonical_entities:taxonomy_term'
+pattern: '[term:vocabulary]/[term:name]'
+selection_criteria:
+  33bc7fc5-ea92-48a1-81b4-026863a3569a:
+    id: 'entity_bundle:taxonomy_term'
+    bundles:
+      faaliyet_alanlari: faaliyet_alanlari
+      kurullar: kurullar
+      tags: tags
+    negate: false
+    context_mapping:
+      taxonomy_term: taxonomy_term
+    uuid: 33bc7fc5-ea92-48a1-81b4-026863a3569a
+selection_logic: and
+weight: -5
+relationships: {  }

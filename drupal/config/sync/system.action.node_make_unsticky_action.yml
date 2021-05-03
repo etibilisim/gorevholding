@@ -1,0 +1,13 @@
+uuid: 85c50deb-0f88-4d05-89d7-2bc7d93fe80f
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: lDM9mvIGAu8Sw8rt-uCO4Sr7yX5VPrDPxYcawkbKd6k
+id: node_make_unsticky_action
+label: 'İçeriğin kalıcılığını kaldır'
+type: node
+plugin: node_make_unsticky_action
+configuration: {  }

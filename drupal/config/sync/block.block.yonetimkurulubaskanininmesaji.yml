@@ -1,0 +1,31 @@
+uuid: bfe5ce00-18be-4fc9-91ac-e327a2b46f98
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:46e0fd09-c474-4044-8c2f-5862269cca27'
+  module:
+    - block_content
+    - system
+  theme:
+    - conference_lite
+id: yonetimkurulubaskanininmesaji
+theme: conference_lite
+region: banner
+weight: 0
+provider: null
+plugin: 'block_content:46e0fd09-c474-4044-8c2f-5862269cca27'
+settings:
+  id: 'block_content:46e0fd09-c474-4044-8c2f-5862269cca27'
+  label: 'Yönetim Kurulu Başkanının Mesajı'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

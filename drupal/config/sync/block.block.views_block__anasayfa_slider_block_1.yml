@@ -1,0 +1,30 @@
+uuid: aff9539b-d1f2-4c36-97f8-9d00fbd0619a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.anasayfa_slider
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__anasayfa_slider_block_1
+theme: conference_lite
+region: banner
+weight: 0
+provider: null
+plugin: 'views_block:anasayfa_slider-block_1'
+settings:
+  id: 'views_block:anasayfa_slider-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

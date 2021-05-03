@@ -1,0 +1,22 @@
+uuid: 48d70382-c46b-45d4-9437-0609643cf9cf
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.anasayfa_slider
+id: node.anasayfa_slider.promote
+field_name: promote
+entity_type: node
+bundle: anasayfa_slider
+label: 'Ana sayfaya yükseltilmiş'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Açık
+  off_label: Kapalı
+field_type: boolean

@@ -1,0 +1,30 @@
+uuid: 0b3aad2e-4478-4c29-93d7-7bbc17883980
+langcode: tr
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_yonetici_gorseli
+field_name: field_yonetici_gorseli
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

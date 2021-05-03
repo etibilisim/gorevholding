@@ -1,0 +1,11 @@
+uuid: 82ebf2bd-922a-4ebd-9269-4a56ac973af9
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.sirket_yoneticisi
+id: node.sirket_yoneticisi
+target_entity_type_id: node
+target_bundle: sirket_yoneticisi
+default_langcode: site_default
+language_alterable: false

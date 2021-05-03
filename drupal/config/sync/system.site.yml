@@ -1,0 +1,14 @@
+uuid: f8741f6e-e163-4e11-8c01-288a66b9f8f2
+name: 'Görev Holding'
+mail: egazete@gorevholding.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: tr
+default_langcode: tr
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

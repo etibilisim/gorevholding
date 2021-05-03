@@ -1,0 +1,30 @@
+uuid: 61e28ba3-7b15-4938-b3cf-46a857bb4060
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.faaliyet_alanlari_ve_sirketler
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__faaliyet_alanlari_ve_sirketler_block_2
+theme: conference_lite
+region: content_top
+weight: 0
+provider: null
+plugin: 'views_block:faaliyet_alanlari_ve_sirketler-block_2'
+settings:
+  id: 'views_block:faaliyet_alanlari_ve_sirketler-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

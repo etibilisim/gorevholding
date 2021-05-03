@@ -1,0 +1,27 @@
+uuid: eb56f2d7-fe2a-490e-9a10-117a597b8b5c
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.cozum_ortagi
+  module:
+    - text
+id: node.cozum_ortagi.body
+field_name: body
+entity_type: node
+bundle: cozum_ortagi
+label: 'Yazı Alanı'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    summary: ''
+    value: "<p>Türkiyemizin yükselen Avrasya’daki öncü konumuna erişebilmesi için var gücüyle çalışan Holdingimiz, pek çok ülkedeki yurt dışı faaliyetlerini Rusya, Çin, İran, Cezayir ve Avusturya’daki öz şirketleri ve partner firmalarıyla yürütmektedir.</p>\r\n\r\n<p>Ekonominin merkezinin Atlantikten Avrasya’ya kaydığı, krizlerle beraber olumlu bir dönüşümün başladığı bu dönemde Türkiye’nin potansiyelini biliyor, bütün hazırlık ve girişimlerimizi çalışan, kazanan ve hakça paylaşan bir sisteme göre yapıyoruz.</p>\r\n\r\n<p>Türkiyemizin Asya, Avrupa, Afrika ve Latin Amerika ülkeleriyle olan ekonomik ilişkilerini daha da geliştirmek, karşılıklı fayda ekseninde, toplum ve insanlık yararına bir çizgide sürdürmek için varız.</p>\r\n\r\n<p>Bütün şirketlerimizle ve çözüm ortaklarımızla Türkiye’nin ve insanlığın birikiminden aldığımız kuvvetle büyük hedeflere ilerlemek için hazırız!</p>\r\n\r\n<p>Hep birlikte Öncü Türkiye’ye!</p>\r\n"
+    format: basic_html
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

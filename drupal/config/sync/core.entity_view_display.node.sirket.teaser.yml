@@ -1,0 +1,37 @@
+uuid: 5b447a7d-1ca8-4299-901d-2c475c8c59e2
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sirket.body
+    - field.field.node.sirket.field_baglanti_adresi
+    - field.field.node.sirket.field_faaliyet_alani
+    - field.field.node.sirket.field_sirket_logosu
+    - node.type.sirket
+  module:
+    - text
+    - user
+id: node.sirket.teaser
+targetEntityType: node
+bundle: sirket
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_baglanti_adresi: true
+  field_faaliyet_alani: true
+  field_sirket_logosu: true
+  langcode: true

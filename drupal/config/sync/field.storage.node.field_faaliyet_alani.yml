@@ -1,0 +1,20 @@
+uuid: 40dec5e2-f793-43ec-99d3-12201299c1a9
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_faaliyet_alani
+field_name: field_faaliyet_alani
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

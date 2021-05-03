@@ -1,0 +1,23 @@
+uuid: bb6b3830-c198-4eec-9c8d-2636e48c9c5f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_siralama
+    - node.type.sirket_yoneticisi
+id: node.sirket_yoneticisi.field_siralama
+field_name: field_siralama
+entity_type: node
+bundle: sirket_yoneticisi
+label: Sıralama
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,8 @@
+uuid: ed0cc1e3-f5bf-42c7-8373-85988f84011c
+langcode: tr
+status: true
+dependencies: {  }
+id: faaliyet-alanlari
+label: 'Faaliyet Alanları'
+description: ''
+locked: false

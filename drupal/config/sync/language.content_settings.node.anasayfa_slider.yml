@@ -1,0 +1,11 @@
+uuid: 1302683e-73d1-46a1-b13c-2c60cac71939
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.anasayfa_slider
+id: node.anasayfa_slider
+target_entity_type_id: node
+target_bundle: anasayfa_slider
+default_langcode: site_default
+language_alterable: false

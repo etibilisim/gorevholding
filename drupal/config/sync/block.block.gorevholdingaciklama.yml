@@ -1,0 +1,25 @@
+uuid: 2834590c-c04b-49d9-834f-1e0d33032b5c
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b59f8bec-62cd-4a77-87c1-4cbe543b7180'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: gorevholdingaciklama
+theme: conference_lite
+region: footer_first
+weight: -11
+provider: null
+plugin: 'block_content:b59f8bec-62cd-4a77-87c1-4cbe543b7180'
+settings:
+  id: 'block_content:b59f8bec-62cd-4a77-87c1-4cbe543b7180'
+  label: 'Görev Holding Açıklama'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

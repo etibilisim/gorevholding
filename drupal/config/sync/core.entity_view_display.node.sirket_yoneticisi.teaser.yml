@@ -1,0 +1,29 @@
+uuid: 008ddb9f-340e-42ae-b688-e9918f99ffc4
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sirket_yoneticisi.field_calistigi_kurul
+    - field.field.node.sirket_yoneticisi.field_siralama
+    - field.field.node.sirket_yoneticisi.field_yonetici_gorseli
+    - field.field.node.sirket_yoneticisi.field_yoneticinin_gorevi
+    - node.type.sirket_yoneticisi
+  module:
+    - user
+id: node.sirket_yoneticisi.teaser
+targetEntityType: node
+bundle: sirket_yoneticisi
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_calistigi_kurul: true
+  field_siralama: true
+  field_yonetici_gorseli: true
+  field_yoneticinin_gorevi: true
+  langcode: true

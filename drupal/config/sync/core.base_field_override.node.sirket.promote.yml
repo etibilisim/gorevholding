@@ -1,0 +1,22 @@
+uuid: 6ae18004-c175-4622-82d0-246b18ed8cb2
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.sirket
+id: node.sirket.promote
+field_name: promote
+entity_type: node
+bundle: sirket
+label: 'Ana sayfaya yükseltilmiş'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Açık
+  off_label: Kapalı
+field_type: boolean

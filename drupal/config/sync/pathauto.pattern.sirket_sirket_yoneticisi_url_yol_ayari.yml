@@ -1,0 +1,26 @@
+uuid: 14b2e167-54b3-4ee5-ae30-8fdfa3cd826e
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: sirket_sirket_yoneticisi_url_yol_ayari
+label: 'Şirket, Şirket Yöneticisi URL Yol Ayarı'
+type: 'canonical_entities:node'
+pattern: '[node:content-type]/[node:title]'
+selection_criteria:
+  695c9b8e-a480-45db-8913-14ad0a03f5db:
+    id: node_type
+    bundles:
+      article: article
+      cozum_ortagi: cozum_ortagi
+      haber_duyuru: haber_duyuru
+      sirket: sirket
+      sirket_yoneticisi: sirket_yoneticisi
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 695c9b8e-a480-45db-8913-14ad0a03f5db
+selection_logic: and
+weight: -5
+relationships: {  }

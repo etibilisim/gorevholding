@@ -1,0 +1,8 @@
+uuid: 0435829d-37f7-4d68-b948-69df49da571f
+langcode: tr
+status: true
+dependencies: {  }
+name: 'Faaliyet Alanları'
+vid: faaliyet_alanlari
+description: ''
+weight: 0

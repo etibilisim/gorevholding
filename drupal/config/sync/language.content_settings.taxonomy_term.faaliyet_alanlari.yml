@@ -1,0 +1,11 @@
+uuid: fe924d87-cc58-4117-935f-aab302378ed9
+langcode: tr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.faaliyet_alanlari
+id: taxonomy_term.faaliyet_alanlari
+target_entity_type_id: taxonomy_term
+target_bundle: faaliyet_alanlari
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,29 @@
+uuid: 94ccf8da-f615-4a59-ba12-65d46a404492
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_calistigi_kurul
+    - node.type.sirket_yoneticisi
+    - taxonomy.vocabulary.kurullar
+id: node.sirket_yoneticisi.field_calistigi_kurul
+field_name: field_calistigi_kurul
+entity_type: node
+bundle: sirket_yoneticisi
+label: 'Çalıştığı Kurul'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      kurullar: kurullar
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

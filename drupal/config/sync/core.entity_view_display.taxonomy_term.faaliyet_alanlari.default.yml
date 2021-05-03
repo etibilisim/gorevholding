@@ -1,0 +1,51 @@
+uuid: b0895821-87de-455d-9407-d52f2ae9423a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.faaliyet_alanlari.field_baglanti_adresi
+    - field.field.taxonomy_term.faaliyet_alanlari.field_faaliyet_alani_gorseli
+    - field.field.taxonomy_term.faaliyet_alanlari.field_ikon
+    - field.field.taxonomy_term.faaliyet_alanlari.field_siralama
+    - taxonomy.vocabulary.faaliyet_alanlari
+  module:
+    - image
+    - link
+    - text
+id: taxonomy_term.faaliyet_alanlari.default
+targetEntityType: taxonomy_term
+bundle: faaliyet_alanlari
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_baglanti_adresi:
+    weight: 2
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    type: link
+    region: content
+  field_faaliyet_alani_gorseli:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  field_ikon: true
+  field_siralama: true
+  langcode: true

@@ -1,0 +1,22 @@
+uuid: 0af74c19-f876-4881-a2db-131e2aa5742a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.sirket_yoneticisi
+id: node.sirket_yoneticisi.promote
+field_name: promote
+entity_type: node
+bundle: sirket_yoneticisi
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

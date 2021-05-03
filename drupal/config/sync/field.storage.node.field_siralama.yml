@@ -1,0 +1,20 @@
+uuid: 0816db3b-24dd-4f10-85c6-35b401fc850b
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_siralama
+field_name: field_siralama
+entity_type: node
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

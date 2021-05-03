@@ -1,0 +1,21 @@
+uuid: 6161bce7-f034-4dfd-9b28-dfc2b237a265
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_ikon
+    - taxonomy.vocabulary.faaliyet_alanlari
+  module:
+    - fontawesome
+id: taxonomy_term.faaliyet_alanlari.field_ikon
+field_name: field_ikon
+entity_type: taxonomy_term
+bundle: faaliyet_alanlari
+label: İkon
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: fontawesome_icon

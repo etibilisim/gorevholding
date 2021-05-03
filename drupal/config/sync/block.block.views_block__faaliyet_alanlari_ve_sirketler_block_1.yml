@@ -1,0 +1,30 @@
+uuid: 4bd5051a-ac00-427f-854e-e1c8b4671fa9
+langcode: tr
+status: false
+dependencies:
+  config:
+    - views.view.faaliyet_alanlari_ve_sirketler
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__faaliyet_alanlari_ve_sirketler_block_1
+theme: conference_lite
+region: sidebar_second
+weight: 0
+provider: null
+plugin: 'views_block:faaliyet_alanlari_ve_sirketler-block_1'
+settings:
+  id: 'views_block:faaliyet_alanlari_ve_sirketler-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: "/faaliyet-alanlari-ve-sirketler\r\n/faaliyet-alanlari-ve-sirketler/*"
+    negate: false
+    context_mapping: {  }

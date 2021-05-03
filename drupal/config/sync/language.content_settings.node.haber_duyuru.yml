@@ -1,0 +1,11 @@
+uuid: ae328cc1-b32f-4df1-90dc-853c2ce6088d
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.haber_duyuru
+id: node.haber_duyuru
+target_entity_type_id: node
+target_bundle: haber_duyuru
+default_langcode: site_default
+language_alterable: false

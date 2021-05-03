@@ -1,0 +1,46 @@
+uuid: d9a2f1d6-4134-431c-855b-975e99d49c4c
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.haber_duyuru.body
+    - field.field.node.haber_duyuru.field_foto_galeri
+    - field.field.node.haber_duyuru.field_one_cikan_gorsel
+    - node.type.haber_duyuru
+  module:
+    - image
+    - text
+    - user
+id: node.haber_duyuru.default
+targetEntityType: node
+bundle: haber_duyuru
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_foto_galeri:
+    weight: 2
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_one_cikan_gorsel:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  langcode: true
+  links: true

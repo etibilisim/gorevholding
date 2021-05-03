@@ -1,0 +1,35 @@
+uuid: 20ee4c4a-dee0-4c91-8415-450d01d79279
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.anasayfa_slider.body
+    - field.field.node.anasayfa_slider.field_anasayfa_slider_gorseli
+    - field.field.node.anasayfa_slider.field_baglanti_adresi
+    - node.type.anasayfa_slider
+  module:
+    - text
+    - user
+id: node.anasayfa_slider.teaser
+targetEntityType: node
+bundle: anasayfa_slider
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_anasayfa_slider_gorseli: true
+  field_baglanti_adresi: true
+  langcode: true

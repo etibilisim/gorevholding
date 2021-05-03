@@ -1,0 +1,13 @@
+uuid: d82bced3-b5ee-4c4d-bfd6-257b773fe41e
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: jonvgt3CkUM2eMLTFwWfHileWWDC4YtXCuIlCahTk_I
+id: personal
+label: 'Kişisel iletişim formu'
+recipients: {  }
+reply: ''
+weight: 0
+message: 'İletiniz tarafımıza ulaşmıştır. İlginiz i&ccedil;in teşekk&uuml;r ederiz. En kısa s&uuml;rede sizinle iletişime ge&ccedil;eceğiz.'
+redirect: ''

@@ -1,0 +1,12 @@
+uuid: 153052b2-2c83-4b71-8315-e086d861c253
+langcode: tr
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: Mz9qWr1kUYK0mjRAGDsr5XS6PvtZ24en_7ndt-pyWe4
+id: node.teaser
+label: Özet
+targetEntityType: node
+cache: true

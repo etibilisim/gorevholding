@@ -1,0 +1,11 @@
+uuid: ef13a5f2-e073-47ca-bafe-e55f58759b2a
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.sirket
+id: node.sirket
+target_entity_type_id: node
+target_bundle: sirket
+default_langcode: site_default
+language_alterable: false

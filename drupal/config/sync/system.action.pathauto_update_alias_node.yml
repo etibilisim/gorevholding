@@ -1,0 +1,16 @@
+uuid: 7cc1ac38-b10f-4c07-bdf0-f638d9cdefae
+langcode: tr
+status: true
+dependencies:
+  enforced:
+    module:
+      - node
+  module:
+    - pathauto
+_core:
+  default_config_hash: lno8QThS348UX-kaUsagJtCnuPHKLXYnTQiF_9HSDWA
+id: pathauto_update_alias_node
+label: 'Yol ismini güncelle'
+type: node
+plugin: pathauto_update_alias
+configuration: {  }

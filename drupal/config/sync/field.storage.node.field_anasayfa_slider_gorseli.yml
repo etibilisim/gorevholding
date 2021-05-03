@@ -1,0 +1,30 @@
+uuid: b373cb5b-988b-47f8-b456-c8f960e9f9ed
+langcode: tr
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_anasayfa_slider_gorseli
+field_name: field_anasayfa_slider_gorseli
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

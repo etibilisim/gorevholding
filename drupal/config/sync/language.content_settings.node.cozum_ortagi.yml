@@ -1,0 +1,11 @@
+uuid: e6330ebe-bc05-40cb-b13a-071d1392549f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - node.type.cozum_ortagi
+id: node.cozum_ortagi
+target_entity_type_id: node
+target_bundle: cozum_ortagi
+default_langcode: site_default
+language_alterable: false

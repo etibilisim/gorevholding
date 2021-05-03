@@ -1,0 +1,30 @@
+uuid: 1a30b01e-da7d-4e82-a2f4-0e33c1737aee
+langcode: tr
+status: true
+dependencies:
+  config:
+    - views.view.yonetim_ve_organizasyon
+  module:
+    - system
+    - views
+  theme:
+    - conference_lite
+id: views_block__yonetim_ve_organizasyon_block_1
+theme: conference_lite
+region: content
+weight: -6
+provider: null
+plugin: 'views_block:yonetim_ve_organizasyon-block_1'
+settings:
+  id: 'views_block:yonetim_ve_organizasyon-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /yonetim
+    negate: false
+    context_mapping: {  }

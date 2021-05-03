@@ -1,0 +1,8 @@
+uuid: cf85bb6e-d268-4eb7-88b2-ed835c68ecff
+langcode: tr
+status: true
+dependencies: {  }
+name: Kurullar
+vid: kurullar
+description: ''
+weight: 0

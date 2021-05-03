@@ -1,0 +1,29 @@
+uuid: c512ca36-9b54-419f-8d65-2b0de56fd310
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_faaliyet_alani
+    - node.type.sirket
+    - taxonomy.vocabulary.faaliyet_alanlari
+id: node.sirket.field_faaliyet_alani
+field_name: field_faaliyet_alani
+entity_type: node
+bundle: sirket
+label: 'Faaliyet Alanı'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      faaliyet_alanlari: faaliyet_alanlari
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

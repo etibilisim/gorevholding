@@ -1,0 +1,31 @@
+uuid: ccfb50aa-f070-4d37-9f12-c17d242f460c
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:f7358481-3d88-4823-a214-adf4d86bbde9'
+  module:
+    - block_content
+    - system
+  theme:
+    - conference_lite
+id: cozumortaklarimizblok
+theme: conference_lite
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:f7358481-3d88-4823-a214-adf4d86bbde9'
+settings:
+  id: 'block_content:f7358481-3d88-4823-a214-adf4d86bbde9'
+  label: 'Çözüm Ortaklarımız Blok'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /cozum-ortaklarimiz
+    negate: false
+    context_mapping: {  }

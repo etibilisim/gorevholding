@@ -1,0 +1,17 @@
+uuid: e0c14068-c776-4ebb-827a-8b1816067c9d
+langcode: tr
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Çözüm Ortağı'
+type: cozum_ortagi
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

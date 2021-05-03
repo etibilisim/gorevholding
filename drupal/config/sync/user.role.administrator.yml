@@ -1,0 +1,11 @@
+uuid: 0427f6c1-eeae-45e5-98bb-086e6d693d84
+langcode: tr
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Om6FEO7vZZMkPIbVvfxtdkWerQ2PvQM4sWUd6Q3ZnfI
+id: administrator
+label: Yönetici
+weight: 2
+is_admin: true
+permissions: {  }

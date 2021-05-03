@@ -1,0 +1,35 @@
+uuid: 0b599977-693a-423a-a164-e4df90985a26
+langcode: tr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.cozum_ortagi.body
+    - field.field.node.cozum_ortagi.field_sayfa_ici_logo
+    - field.field.node.cozum_ortagi.field_sirket_logosu
+    - node.type.cozum_ortagi
+  module:
+    - text
+    - user
+id: node.cozum_ortagi.teaser
+targetEntityType: node
+bundle: cozum_ortagi
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_sayfa_ici_logo: true
+  field_sirket_logosu: true
+  langcode: true

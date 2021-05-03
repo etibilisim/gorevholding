@@ -1,0 +1,31 @@
+uuid: da322bac-8cda-4fdb-a420-536063f005c4
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:053fe9f7-a910-4857-95a8-12e372286997'
+  module:
+    - block_content
+    - system
+  theme:
+    - conference_lite
+id: iletisimadresleri
+theme: conference_lite
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:053fe9f7-a910-4857-95a8-12e372286997'
+settings:
+  id: 'block_content:053fe9f7-a910-4857-95a8-12e372286997'
+  label: 'İletişim Adresleri'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /iletisim
+    negate: false
+    context_mapping: {  }

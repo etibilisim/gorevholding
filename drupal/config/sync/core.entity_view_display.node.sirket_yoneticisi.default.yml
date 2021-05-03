@@ -1,0 +1,59 @@
+uuid: 6e60021e-2734-499a-b2ec-6efb1f9c425c
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.field.node.sirket_yoneticisi.field_calistigi_kurul
+    - field.field.node.sirket_yoneticisi.field_siralama
+    - field.field.node.sirket_yoneticisi.field_yonetici_gorseli
+    - field.field.node.sirket_yoneticisi.field_yoneticinin_gorevi
+    - node.type.sirket_yoneticisi
+  module:
+    - image
+    - user
+id: node.sirket_yoneticisi.default
+targetEntityType: node
+bundle: sirket_yoneticisi
+mode: default
+content:
+  field_calistigi_kurul:
+    weight: 102
+    label: hidden
+    settings:
+      link: false
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_siralama:
+    weight: 104
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_yonetici_gorseli:
+    weight: 101
+    label: hidden
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_yoneticinin_gorevi:
+    weight: 103
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
