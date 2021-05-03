@@ -1,0 +1,25 @@
+uuid: bb9229e7-2bf3-47ee-b717-5c59a6293af6
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fb0ffbe0-a48b-4c6f-a8bc-91fd5f0ee10d'
+  module:
+    - block_content
+  theme:
+    - conference_lite
+id: sosyalmedya
+theme: conference_lite
+region: footer_fifth
+weight: 0
+provider: null
+plugin: 'block_content:fb0ffbe0-a48b-4c6f-a8bc-91fd5f0ee10d'
+settings:
+  id: 'block_content:fb0ffbe0-a48b-4c6f-a8bc-91fd5f0ee10d'
+  label: 'Sosyal Medya'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
