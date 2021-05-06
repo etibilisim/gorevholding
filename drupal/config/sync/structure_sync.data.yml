@@ -180,7 +180,7 @@ taxonomies:
       vid: faaliyet_alanlari
       tid: '1'
       langcode: tr
-      name: 'Yatırım ve Finansman'
+      name: 'Yatırım, Finansman Hizmetleri ve iş Geliştirme'
       description__value: null
       description__format: null
       weight: '0'
@@ -188,7 +188,7 @@ taxonomies:
       uuid: df13e747-c2d8-4791-908d-b8ab2c14b4db
       field_baglanti_adresi:
         -
-          uri: 'internal:/faaliyet-alanlari-ve-sirketler/yatirim-ve-finansman'
+          uri: 'internal:/faaliyet-alanlari-ve-sirketler/yatırım-finansman-hizmetleri-ve-is-gelistirme'
           title: ''
           options: {  }
       field_faaliyet_alani_gorseli: {  }
