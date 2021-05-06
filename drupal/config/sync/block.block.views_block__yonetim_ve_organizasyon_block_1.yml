@@ -1,6 +1,6 @@
 uuid: 1a30b01e-da7d-4e82-a2f4-0e33c1737aee
 langcode: tr
-status: true
+status: false
 dependencies:
   config:
     - views.view.yonetim_ve_organizasyon

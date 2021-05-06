@@ -814,18 +814,17 @@ display:
     position: 1
     display_options:
       display_extenders: {  }
-      path: faaliyet-alanlari-ve-sirketler/yatirim-ve-finansman
+      path: faaliyet-alanlari-ve-sirketler/yatirim-finansman-hizmetleri-ve-is-gelistirme
       display_description: ''
       menu:
         type: normal
-        title: 'Yatırım ve Finansman'
+        title: 'Yatırım, Finansman Hizmetleri ve İş Geliştirme'
         description: ''
         expanded: false
         parent: ''
         weight: -50
         context: '0'
         menu_name: faaliyet-alanlari
-        enabled: true
       filters:
         status:
           value: '1'
