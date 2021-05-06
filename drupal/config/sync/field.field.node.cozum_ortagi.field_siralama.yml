@@ -1,0 +1,23 @@
+uuid: 6c505dea-62e4-416c-a7a0-008580f0c77f
+langcode: tr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_siralama
+    - node.type.cozum_ortagi
+id: node.cozum_ortagi.field_siralama
+field_name: field_siralama
+entity_type: node
+bundle: cozum_ortagi
+label: Sıralama
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

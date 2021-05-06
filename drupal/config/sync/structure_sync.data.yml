@@ -5,8 +5,8 @@ taxonomies:
       tid: '2'
       langcode: tr
       name: 'Dış Ticaret'
-      description__value: null
-      description__format: null
+      description__value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+      description__format: basic_html
       weight: '1'
       parent: '0'
       uuid: 3e5bffb5-a5f6-400a-a7ae-3ca509d696a1
@@ -21,14 +21,16 @@ taxonomies:
           icon_name: ship
           style: fas
           settings: 'a:4:{s:4:"size";s:5:"fa-lg";s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
-      field_siralama: {  }
+      field_siralama:
+        -
+          value: '2'
     -
       vid: faaliyet_alanlari
       tid: '4'
       langcode: tr
       name: 'İnşaat ve Madencilik'
-      description__value: null
-      description__format: null
+      description__value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices, eros ut convallis semper, dolor ipsum fringilla quam, id ultrices enim odio in libero. Cras posuere ut risus eget imperdiet. Mauris mattis, est at euismod varius, diam leo bibendum mi, eu egestas ex ipsum et nisl. Quisque diam enim, eleifend vitae malesuada eu, eleifend eget neque. Sed sit amet semper lorem, nec malesuada nibh. Quisque porta mauris sit amet erat malesuada varius. Vivamus sagittis libero et sapien posuere hendrerit. Morbi eu blandit purus. Duis eget dolor a mauris lobortis accumsan in eu quam. Aenean malesuada, elit eu gravida fringilla, nulla tortor finibus nibh, eget bibendum eros mauris a orci. Sed ac magna ut ligula elementum vestibulum eget a ligula. Suspendisse eu pellentesque felis, quis mattis sapien. Cras eget ipsum lobortis leo dictum molestie. Curabitur mattis sit amet est nec tristique. Phasellus dignissim magna nec nulla consequat, sit amet congue tellus volutpat.</p>\r\n\r\n<p>Ut sed mi justo. In eleifend volutpat ante. Mauris ex magna, aliquam ut erat eu, scelerisque dapibus nisl. Pellentesque tincidunt, justo id ultricies pellentesque, tortor sapien sodales sem, in malesuada ante eros ac erat. Praesent sit amet elit velit. Curabitur ultricies leo a est ullamcorper posuere. Proin velit dolor, accumsan sed sodales vel, semper non neque.</p>\r\n"
+      description__format: basic_html
       weight: '2'
       parent: '0'
       uuid: 1ebad06d-7002-4fcb-a842-a690d7c68517
@@ -43,14 +45,16 @@ taxonomies:
           icon_name: snowplow
           style: fas
           settings: 'a:4:{s:4:"size";s:5:"fa-lg";s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
-      field_siralama: {  }
+      field_siralama:
+        -
+          value: '3'
     -
       vid: faaliyet_alanlari
       tid: '10'
       langcode: tr
       name: Otomotiv
-      description__value: null
-      description__format: null
+      description__value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+      description__format: basic_html
       weight: '4'
       parent: '0'
       uuid: 51845192-7d1b-494d-a423-2b1df96bc1b7
@@ -65,14 +69,16 @@ taxonomies:
           icon_name: car
           style: fas
           settings: 'a:4:{s:4:"size";s:5:"fa-lg";s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
-      field_siralama: {  }
+      field_siralama:
+        -
+          value: '5'
     -
       vid: faaliyet_alanlari
       tid: '3'
       langcode: tr
       name: Sağlık
-      description__value: null
-      description__format: null
+      description__value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+      description__format: basic_html
       weight: '3'
       parent: '0'
       uuid: 29c69de8-a0a3-4bae-97a6-544d4c553a37
@@ -87,14 +93,16 @@ taxonomies:
           icon_name: heartbeat
           style: fas
           settings: 'a:4:{s:4:"size";s:5:"fa-lg";s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
-      field_siralama: {  }
+      field_siralama:
+        -
+          value: '4'
     -
       vid: faaliyet_alanlari
       tid: '8'
       langcode: tr
       name: 'Savunma Sanayi'
-      description__value: null
-      description__format: null
+      description__value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+      description__format: basic_html
       weight: '6'
       parent: '0'
       uuid: b4e1ae06-e7bc-4156-b6a7-f6ee97251d6d
@@ -109,14 +117,16 @@ taxonomies:
           icon_name: fighter-jet
           style: fas
           settings: 'a:4:{s:4:"size";s:5:"fa-lg";s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
-      field_siralama: {  }
+      field_siralama:
+        -
+          value: '7'
     -
       vid: faaliyet_alanlari
       tid: '7'
       langcode: tr
       name: Sigortacılık
-      description__value: null
-      description__format: null
+      description__value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+      description__format: basic_html
       weight: '5'
       parent: '0'
       uuid: d0cc6a97-96fc-4560-bd04-cd7293734905
@@ -131,14 +141,16 @@ taxonomies:
           icon_name: briefcase
           style: fas
           settings: 'a:4:{s:4:"size";s:5:"fa-lg";s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
-      field_siralama: {  }
+      field_siralama:
+        -
+          value: '6'
     -
       vid: faaliyet_alanlari
       tid: '9'
       langcode: tr
       name: Teknoloji
-      description__value: null
-      description__format: null
+      description__value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+      description__format: basic_html
       weight: '7'
       parent: '0'
       uuid: 00fcda56-566b-4da9-8ecd-70fd209bfec8
@@ -153,14 +165,16 @@ taxonomies:
           icon_name: laptop-code
           style: fas
           settings: 'a:4:{s:4:"size";s:5:"fa-lg";s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
-      field_siralama: {  }
+      field_siralama:
+        -
+          value: '8'
     -
       vid: faaliyet_alanlari
       tid: '5'
       langcode: tr
       name: Turizm
-      description__value: null
-      description__format: null
+      description__value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+      description__format: basic_html
       weight: '8'
       parent: '0'
       uuid: bd827a0f-638c-484a-b1ee-555f76ed9c24
@@ -175,14 +189,16 @@ taxonomies:
           icon_name: torii-gate
           style: fas
           settings: 'a:3:{s:7:"duotone";a:3:{s:12:"swap-opacity";i:0;s:7:"opacity";a:2:{s:7:"primary";s:0:"";s:9:"secondary";s:0:"";}s:5:"color";a:2:{s:7:"primary";s:7:"#000000";s:9:"secondary";s:7:"#000000";}}s:7:"masking";a:2:{s:4:"mask";s:0:"";s:5:"style";s:3:"fas";}s:16:"power_transforms";a:3:{s:5:"scale";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_y";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}s:10:"position_x";a:2:{s:4:"type";s:0:"";s:5:"value";s:0:"";}}}'
-      field_siralama: {  }
+      field_siralama:
+        -
+          value: '9'
     -
       vid: faaliyet_alanlari
       tid: '1'
       langcode: tr
-      name: 'Yatırım, Finansman Hizmetleri ve iş Geliştirme'
-      description__value: null
-      description__format: null
+      name: 'Yatırım, Finansman Hizmetleri ve İş Geliştirme'
+      description__value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+      description__format: basic_html
       weight: '0'
       parent: '0'
       uuid: df13e747-c2d8-4791-908d-b8ab2c14b4db
@@ -223,6 +239,123 @@ taxonomies:
       uuid: 7e42e9ff-a381-444b-a70c-c681965aade9
   tags: {  }
 blocks:
+  -
+    info: 'Turizm Blok'
+    langcode: tr
+    uuid: ee796783-8973-4f19-9999-6d0e46c9e0d6
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'Teknoloji Blok'
+    langcode: tr
+    uuid: d985e54a-7866-4b75-ae55-ca8dc224bf02
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'Savunma Sanayi Blok'
+    langcode: tr
+    uuid: 479f863f-955d-4860-94e9-7d54de4a7828
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'Sigortacılık BLok'
+    langcode: tr
+    uuid: 6a000270-43a3-446d-9950-73cd7efcb2e1
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'Otomotive Blok'
+    langcode: tr
+    uuid: 85cf7357-4c3f-465e-b925-8e5669bf75fc
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'Sağlık Blok'
+    langcode: tr
+    uuid: 6ffdb13a-a52d-487d-90a0-548edd969d82
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'İnşaat ve Madencilik'
+    langcode: tr
+    uuid: 865428e5-c27e-43e8-8397-40d2d6f4de15
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices, eros ut convallis semper, dolor ipsum fringilla quam, id ultrices enim odio in libero. Cras posuere ut risus eget imperdiet. Mauris mattis, est at euismod varius, diam leo bibendum mi, eu egestas ex ipsum et nisl. Quisque diam enim, eleifend vitae malesuada eu, eleifend eget neque. Sed sit amet semper lorem, nec malesuada nibh. Quisque porta mauris sit amet erat malesuada varius. Vivamus sagittis libero et sapien posuere hendrerit. Morbi eu blandit purus. Duis eget dolor a mauris lobortis accumsan in eu quam. Aenean malesuada, elit eu gravida fringilla, nulla tortor finibus nibh, eget bibendum eros mauris a orci. Sed ac magna ut ligula elementum vestibulum eget a ligula. Suspendisse eu pellentesque felis, quis mattis sapien. Cras eget ipsum lobortis leo dictum molestie. Curabitur mattis sit amet est nec tristique. Phasellus dignissim magna nec nulla consequat, sit amet congue tellus volutpat.</p>\r\n\r\n<p>Ut sed mi justo. In eleifend volutpat ante. Mauris ex magna, aliquam ut erat eu, scelerisque dapibus nisl. Pellentesque tincidunt, justo id ultricies pellentesque, tortor sapien sodales sem, in malesuada ante eros ac erat. Praesent sit amet elit velit. Curabitur ultricies leo a est ullamcorper posuere. Proin velit dolor, accumsan sed sodales vel, semper non neque.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'Dış Ticaret Blok'
+    langcode: tr
+    uuid: 2e3ed9a1-8c39-497d-bfa7-00e7b51d4bb3
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis consequat ex ut mattis. Etiam egestas justo ligula, at sodales est ornare eu. Morbi convallis porta mauris. Nam ut venenatis sapien, id sodales lacus. Pellentesque in nibh felis. Aliquam lacinia est eget enim euismod, sit amet placerat felis eleifend. Pellentesque porttitor urna vulputate, tempus est tincidunt, tempor sapien. Morbi quis enim urna. Aliquam erat volutpat. Proin dictum laoreet sagittis. Donec aliquam magna nec sodales viverra.</p>\r\n\r\n<p>Donec sed interdum risus. Maecenas felis mi, convallis eget leo at, lacinia laoreet ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras luctus, magna id vestibulum euismod, ante nibh viverra purus, et porttitor augue nisi vel enim. Donec vel nisl eu ex mattis aliquam. Nam fringilla tortor eget ligula scelerisque vestibulum. Etiam lacinia tortor pharetra dui sollicitudin rutrum. Sed egestas suscipit cursus. Aenean ultricies egestas mauris. Curabitur porttitor eu magna vel faucibus. Nam vitae nulla commodo, laoreet leo id, porta mi. Pellentesque enim arcu, viverra a fringilla eu, suscipit sit amet sem.</p>\r\n"
+          summary: ''
+          format: basic_html
+  -
+    info: 'Yatırım, Finansman Hizmetleri ve İş Geliştirme'
+    langcode: tr
+    uuid: d5d39977-0851-4c74-b2fe-01cc6f6d4c4f
+    bundle: basic
+    revision_id: null
+    rev_id_current: null
+    fields:
+      body:
+        -
+          value: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices, eros ut convallis semper, dolor ipsum fringilla quam, id ultrices enim odio in libero. Cras posuere ut risus eget imperdiet. Mauris mattis, est at euismod varius, diam leo bibendum mi, eu egestas ex ipsum et nisl. Quisque diam enim, eleifend vitae malesuada eu, eleifend eget neque. Sed sit amet semper lorem, nec malesuada nibh. Quisque porta mauris sit amet erat malesuada varius. Vivamus sagittis libero et sapien posuere hendrerit. Morbi eu blandit purus. Duis eget dolor a mauris lobortis accumsan in eu quam. Aenean malesuada, elit eu gravida fringilla, nulla tortor finibus nibh, eget bibendum eros mauris a orci. Sed ac magna ut ligula elementum vestibulum eget a ligula. Suspendisse eu pellentesque felis, quis mattis sapien. Cras eget ipsum lobortis leo dictum molestie. Curabitur mattis sit amet est nec tristique. Phasellus dignissim magna nec nulla consequat, sit amet congue tellus volutpat.</p>\r\n\r\n<p>Ut sed mi justo. In eleifend volutpat ante. Mauris ex magna, aliquam ut erat eu, scelerisque dapibus nisl. Pellentesque tincidunt, justo id ultricies pellentesque, tortor sapien sodales sem, in malesuada ante eros ac erat. Praesent sit amet elit velit. Curabitur ultricies leo a est ullamcorper posuere. Proin velit dolor, accumsan sed sodales vel, semper non neque.</p>\r\n"
+          summary: ''
+          format: basic_html
   -
     info: 'Sosyal Medya'
     langcode: tr

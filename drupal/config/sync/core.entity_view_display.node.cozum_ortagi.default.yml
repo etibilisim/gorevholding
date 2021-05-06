@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.cozum_ortagi.body
     - field.field.node.cozum_ortagi.field_sayfa_ici_logo
+    - field.field.node.cozum_ortagi.field_siralama
     - field.field.node.cozum_ortagi.field_sirket_logosu
     - image.style.kare_300x300
     - node.type.cozum_ortagi
@@ -39,5 +40,6 @@ content:
     settings: {  }
     third_party_settings: {  }
 hidden:
+  field_siralama: true
   field_sirket_logosu: true
   langcode: true

@@ -1,23 +1,23 @@
-uuid: da322bac-8cda-4fdb-a420-536063f005c4
+uuid: e6134eef-2fe5-4832-9b62-ea1467e41358
 langcode: tr
 status: true
 dependencies:
   content:
-    - 'block_content:basic:053fe9f7-a910-4857-95a8-12e372286997'
+    - 'block_content:basic:479f863f-955d-4860-94e9-7d54de4a7828'
   module:
     - block_content
     - system
   theme:
     - conference_lite
-id: iletisimadresleri
+id: savunmasanayiblok
 theme: conference_lite
 region: content
-weight: -4
+weight: -15
 provider: null
-plugin: 'block_content:053fe9f7-a910-4857-95a8-12e372286997'
+plugin: 'block_content:479f863f-955d-4860-94e9-7d54de4a7828'
 settings:
-  id: 'block_content:053fe9f7-a910-4857-95a8-12e372286997'
-  label: 'İletişim Adresleri'
+  id: 'block_content:479f863f-955d-4860-94e9-7d54de4a7828'
+  label: 'Savunma Sanayi Blok'
   provider: block_content
   label_display: '0'
   status: true
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /iletisim
+    pages: /faaliyet-alanlari-ve-sirketler/savunma-sanayi
     negate: false
     context_mapping: {  }

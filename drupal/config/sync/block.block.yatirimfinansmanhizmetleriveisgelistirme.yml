@@ -1,0 +1,31 @@
+uuid: 78cb12fc-d48c-408d-8079-21325e56bd66
+langcode: tr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d5d39977-0851-4c74-b2fe-01cc6f6d4c4f'
+  module:
+    - block_content
+    - system
+  theme:
+    - conference_lite
+id: yatirimfinansmanhizmetleriveisgelistirme
+theme: conference_lite
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:d5d39977-0851-4c74-b2fe-01cc6f6d4c4f'
+settings:
+  id: 'block_content:d5d39977-0851-4c74-b2fe-01cc6f6d4c4f'
+  label: 'Yatırım, Finansman Hizmetleri ve İş Geliştirme Blok'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: /faaliyet-alanlari-ve-sirketler/yatirim-finansman-hizmetleri-ve-is-gelistirme
+    negate: false
+    context_mapping: {  }

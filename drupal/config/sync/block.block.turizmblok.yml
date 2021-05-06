@@ -1,23 +1,23 @@
-uuid: da322bac-8cda-4fdb-a420-536063f005c4
+uuid: 96c6ff03-22a5-4d32-bffa-062aa857e40f
 langcode: tr
 status: true
 dependencies:
   content:
-    - 'block_content:basic:053fe9f7-a910-4857-95a8-12e372286997'
+    - 'block_content:basic:ee796783-8973-4f19-9999-6d0e46c9e0d6'
   module:
     - block_content
     - system
   theme:
     - conference_lite
-id: iletisimadresleri
+id: turizmblok
 theme: conference_lite
 region: content
-weight: -4
+weight: -9
 provider: null
-plugin: 'block_content:053fe9f7-a910-4857-95a8-12e372286997'
+plugin: 'block_content:ee796783-8973-4f19-9999-6d0e46c9e0d6'
 settings:
-  id: 'block_content:053fe9f7-a910-4857-95a8-12e372286997'
-  label: 'İletişim Adresleri'
+  id: 'block_content:ee796783-8973-4f19-9999-6d0e46c9e0d6'
+  label: 'Turizm Blok'
   provider: block_content
   label_display: '0'
   status: true
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /iletisim
+    pages: /faaliyet-alanlari-ve-sirketler/turizm
     negate: false
     context_mapping: {  }

@@ -6,6 +6,7 @@ dependencies:
     - core.entity_view_mode.node.teaser
     - field.field.node.cozum_ortagi.body
     - field.field.node.cozum_ortagi.field_sayfa_ici_logo
+    - field.field.node.cozum_ortagi.field_siralama
     - field.field.node.cozum_ortagi.field_sirket_logosu
     - node.type.cozum_ortagi
   module:
@@ -31,5 +32,6 @@ content:
     region: content
 hidden:
   field_sayfa_ici_logo: true
+  field_siralama: true
   field_sirket_logosu: true
   langcode: true

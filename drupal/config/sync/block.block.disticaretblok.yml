@@ -1,23 +1,23 @@
-uuid: da322bac-8cda-4fdb-a420-536063f005c4
+uuid: 594efadb-99ac-4c02-bfba-93abbd7f52ba
 langcode: tr
 status: true
 dependencies:
   content:
-    - 'block_content:basic:053fe9f7-a910-4857-95a8-12e372286997'
+    - 'block_content:basic:2e3ed9a1-8c39-497d-bfa7-00e7b51d4bb3'
   module:
     - block_content
     - system
   theme:
     - conference_lite
-id: iletisimadresleri
+id: disticaretblok
 theme: conference_lite
 region: content
-weight: -4
+weight: -17
 provider: null
-plugin: 'block_content:053fe9f7-a910-4857-95a8-12e372286997'
+plugin: 'block_content:2e3ed9a1-8c39-497d-bfa7-00e7b51d4bb3'
 settings:
-  id: 'block_content:053fe9f7-a910-4857-95a8-12e372286997'
-  label: 'İletişim Adresleri'
+  id: 'block_content:2e3ed9a1-8c39-497d-bfa7-00e7b51d4bb3'
+  label: 'Dış Ticaret Blok'
   provider: block_content
   label_display: '0'
   status: true
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /iletisim
+    pages: /faaliyet-alanlari-ve-sirketler/dis-ticaret
     negate: false
     context_mapping: {  }

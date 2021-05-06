@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.cozum_ortagi.body
     - field.field.node.cozum_ortagi.field_sayfa_ici_logo
+    - field.field.node.cozum_ortagi.field_siralama
     - field.field.node.cozum_ortagi.field_sirket_logosu
     - image.style.thumbnail
     - node.type.cozum_ortagi
@@ -41,6 +42,13 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+    region: content
+  field_siralama:
+    weight: 26
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
     region: content
   field_sirket_logosu:
     weight: 1

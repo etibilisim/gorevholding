@@ -1,23 +1,23 @@
-uuid: da322bac-8cda-4fdb-a420-536063f005c4
+uuid: a9e07fa3-f510-4319-ae7d-06c2701b8649
 langcode: tr
 status: true
 dependencies:
   content:
-    - 'block_content:basic:053fe9f7-a910-4857-95a8-12e372286997'
+    - 'block_content:basic:d985e54a-7866-4b75-ae55-ca8dc224bf02'
   module:
     - block_content
     - system
   theme:
     - conference_lite
-id: iletisimadresleri
+id: teknolojiblok
 theme: conference_lite
 region: content
-weight: -4
+weight: -10
 provider: null
-plugin: 'block_content:053fe9f7-a910-4857-95a8-12e372286997'
+plugin: 'block_content:d985e54a-7866-4b75-ae55-ca8dc224bf02'
 settings:
-  id: 'block_content:053fe9f7-a910-4857-95a8-12e372286997'
-  label: 'İletişim Adresleri'
+  id: 'block_content:d985e54a-7866-4b75-ae55-ca8dc224bf02'
+  label: 'Teknoloji Blok'
   provider: block_content
   label_display: '0'
   status: true
@@ -26,6 +26,6 @@ settings:
 visibility:
   request_path:
     id: request_path
-    pages: /iletisim
+    pages: /faaliyet-alanlari-ve-sirketler/teknoloji
     negate: false
     context_mapping: {  }
