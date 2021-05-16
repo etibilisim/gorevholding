@@ -150,8 +150,8 @@ display:
             offset: false
             offset_label: Offset
           tags:
-            previous: '‹ Önceki'
-            next: 'Sonraki ›'
+            previous: '‹ Previous'
+            next: 'Next ›'
             first: '« First'
             last: 'Last »'
           quantity: 9
@@ -265,7 +265,7 @@ display:
       display_extenders: {  }
       enabled: true
     display_plugin: page
-    display_title: Sayfa
+    display_title: Page
     id: page_1
     position: 1
     cache_metadata:

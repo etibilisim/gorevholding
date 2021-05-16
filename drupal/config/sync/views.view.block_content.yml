@@ -54,8 +54,8 @@ display:
           id: 0
           total_pages: null
           tags:
-            previous: '‹ Önceki'
-            next: 'Sonraki ›'
+            previous: '‹ Previous'
+            next: 'Next ›'
           expose:
             items_per_page: false
             items_per_page_label: 'Items per page'
@@ -251,7 +251,7 @@ display:
           relationship: none
           group_type: group
           admin_label: ''
-          label: Güncellendi
+          label: Updated
           exclude: false
           alter:
             alter_text: false
@@ -519,7 +519,7 @@ display:
   page_1:
     display_plugin: page
     id: page_1
-    display_title: Sayfa
+    display_title: Page
     position: 1
     display_options:
       display_extenders: {  }
