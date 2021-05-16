@@ -8,6 +8,7 @@ dependencies:
     - field.field.node.sirket.field_baglanti_adresi
     - field.field.node.sirket.field_faaliyet_alani
     - field.field.node.sirket.field_sirket_logosu
+    - field.field.node.sirket.field_sirket_pdf
     - node.type.sirket
   module:
     - text
@@ -34,4 +35,5 @@ hidden:
   field_baglanti_adresi: true
   field_faaliyet_alani: true
   field_sirket_logosu: true
+  field_sirket_pdf: true
   langcode: true
